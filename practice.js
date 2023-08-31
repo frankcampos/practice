@@ -17,3 +17,13 @@ console.log(colors);
 // object function to avoid mutation in our Object, or protect the values of our object
 Object.freeze(frank);
 delete  frank.age;
+
+
+// rest parameter, allow to represent undefine numbers of arguments as an array 
+ function  sovereignCompanyEmployee(...employees){
+    return employees
+ }
+
+ // all employees of 2023
+ const employees2023 = sovereignCompanyEmployee('frank','jose','chiki','chuy');
+ console.log(employees2023);
