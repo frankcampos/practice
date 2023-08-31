@@ -19,7 +19,7 @@ Object.freeze(frank);
 delete  frank.age;
 
 
-// rest parameter, allow to represent undefine numbers of arguments as an array 
+// rest parameter, allow to represent indefinite numbers of arguments as an array 
  function  sovereignCompanyEmployee(...employees){
     return employees
  }
