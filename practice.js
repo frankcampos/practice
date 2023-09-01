@@ -27,3 +27,12 @@ delete  frank.age;
  // all employees of 2023
  const employees2023 = sovereignCompanyEmployee('frank','jose','chiki','chuy');
  console.log(employees2023);
+
+ //spread notation
+ const serenityFavoritesFood=['rice','chicken','pizza'];
+ const legacyFavoritesFood=['steak', 'pickles','hotdogs'];
+
+ // spread the elements an array into   individuals elements
+ const menuWithMyDaughters =[...serenityFavoritesFood,...legacyFavoritesFood];
+ console.log(menuWithMyDaughters);
+ console.log(...serenityFavoritesFood);
