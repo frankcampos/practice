@@ -36,3 +36,8 @@ delete  frank.age;
  const menuWithMyDaughters =[...serenityFavoritesFood,...legacyFavoritesFood];
  console.log(menuWithMyDaughters);
  console.log(...serenityFavoritesFood);
+
+ //Destructing assignment, allow us to create new variables using the properties names of an object.
+
+ const {age,daughter}=frank;// the destructuring assignment created two new variables, age and daughter.
+ console.log(daughter);
