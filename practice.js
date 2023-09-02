@@ -41,3 +41,5 @@ delete  frank.age;
 
  const {age,daughter}=frank;// the destructuring assignment created two new variables, age and daughter.
  console.log(daughter);
+
+ 
