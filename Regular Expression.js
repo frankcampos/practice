@@ -23,3 +23,8 @@ let myRegex = /love/i;
 let myMatch = myStr.match(myRegex);
 console.log(myMatch);
 
+// global  search flag 'g'
+let twinkleStar = "Twinkle, twinkle, twinklE little star"; // a string with the same words
+let starRegex = /twinkle/gi; 
+let result = twinkleStar.match(starRegex); 
+console.log(result);
