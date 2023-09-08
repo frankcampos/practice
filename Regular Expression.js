@@ -48,3 +48,4 @@ let quoteSample2 = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[a-z]/gi; // the 'g' is the global flag, it's including all characters of the alphabet, and the fla 'i' included all cases.
 let result2 = quoteSample2.match(alphabetRegex); 
 console.log(result2);
+//checking
