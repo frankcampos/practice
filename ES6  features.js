@@ -16,4 +16,5 @@ const myShoppingList = ['water', 'shampoo', 'chicken', 'motoroil'];
 //extracting values from an array into variable
 const [water, shampoo, chicken] = myShoppingList;
 console.log(water,shampoo,chicken);
+//new change
 
